@@ -1,4 +1,4 @@
-# $NetBSD$
+# $NetBSD: buildlink3.mk,v 1.1 2020/02/03 23:04:09 fox Exp $
 
 BUILDLINK_TREE+=	wolfssl
 
@@ -6,8 +6,7 @@ BUILDLINK_TREE+=	wolfssl
 WOLFSSL_BUILDLINK3_MK:=
 
 BUILDLINK_API_DEPENDS.wolfssl+=	wolfssl>=4.3.0
-#BUILDLINK_PKGSRCDIR.wolfssl?=	../../security/wolfssl
-BUILDLINK_PKGSRCDIR.wolfssl?=	../../wip/wolfssl
+BUILDLINK_PKGSRCDIR.wolfssl?=	../../security/wolfssl
 
 .endif # WOLFSSL_BUILDLINK3_MK
 

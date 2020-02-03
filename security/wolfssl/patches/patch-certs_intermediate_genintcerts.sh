@@ -1,4 +1,4 @@
-$NetBSD$
+$NetBSD: patch-certs_intermediate_genintcerts.sh,v 1.1 2020/02/03 23:04:09 fox Exp $
 
 Make the script portable.
 

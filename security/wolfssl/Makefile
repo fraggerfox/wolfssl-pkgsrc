@@ -1,4 +1,4 @@
-# $NetBSD$
+# $NetBSD: Makefile,v 1.1 2020/02/03 23:04:09 fox Exp $
 
 DISTNAME=	wolfssl-4.3.0
 CATEGORIES=	security
@@ -36,6 +36,7 @@ PKGCONFIG_OVERRIDE+=	support/wolfssl.pc.in
 
 USE_LIBTOOL=	yes
 
+# XXX: Tests fail in NetBSD 7/8/9 but this has been fixed in -current
 TEST_TARGET=	check
 
 .include "../../mk/bsd.pkg.mk"
