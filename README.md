@@ -1,14 +1,12 @@
 wolfssl-pkgsrc
 ===============
 
-NetBSD pkgsrc script for wolfssl.
+NetBSD [pkgsrc][3] script for wolfssl.
 
 wolfSSL is a small, portable, embedded SSL/TLS library targeted for use by
 embedded systems developers.
 
 You can find wolfSSL [here][1]
-
-NOTE: This package is not yet available in the pkgsrc tree.
 
 Installation
 ------------
@@ -40,4 +38,4 @@ BSD 2-clause. See LICENSE.
 
 [1]: https://www.wolfssl.com/
 [2]: https://github.com/wolfssl/wolfssl
-
+[3]: http://pkgsrc.se/security/wolfssl
